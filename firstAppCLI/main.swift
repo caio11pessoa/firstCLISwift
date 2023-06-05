@@ -7,5 +7,11 @@
 
 import Foundation
 
-print("Hello, World!")
+class Main {
+    init() {
+        View().didLoad()
+    }
+}
 
+
+_ = Main()
